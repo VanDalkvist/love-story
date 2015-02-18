@@ -1,0 +1,23 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "How Ivan met Olia...";
+    Layout = "../_Layout.cshtml";
+}
+
+<div ng-controller="MainCtrl">
+    <div class="heading">
+        @*<h2>@ViewBag.Title</h2>*@
+        <a class="button" ng-click="changeState()">{{model.isStarted && 'Pause' || 'Start'}}</a>
+        <a class="button" ng-click="reset()">Reset</a>
+        <a class="button" ng-click="toggleSky()">Sky</a>
+    </div>
+    <div class="container">
+        <canvas id="history"></canvas>
+        <img alt="" />
+    </div>
+    <div class="heading">
+        @*<h2>Как Иван встретил Олю...</h2>  @*todo: russian lang support to config*@
+        @*<a class="button" ng-click="start()" ng-hide="model.isStarted">Start</a>*@
+    </div>
+</div>

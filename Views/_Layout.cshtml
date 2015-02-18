@@ -1,0 +1,22 @@
+﻿@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app="love-story">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @Styles.Render("~/bundles/styles")
+</head>
+<body>
+    <div>
+        @RenderBody()
+
+        @Scripts.Render("~/bundles/angular")
+        @Scripts.Render("~/bundles/ui-router")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/paper")
+        @Scripts.Render("~/bundles/app")
+    </div>
+</body>
+</html>
