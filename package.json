@@ -1,0 +1,24 @@
+{
+  "name": "love-story",
+  "version": "0.0.1",
+  "description": "Love story about me and my wife",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VanDalkvist/love-story.git"
+  },
+  "author": "Ivan Afanasov <i_van@list.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VanDalkvist/love-story/issues"
+  },
+  "homepage": "https://github.com/VanDalkvist/love-story",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+  }
+}
